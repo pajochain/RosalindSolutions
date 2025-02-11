@@ -15,8 +15,12 @@ def parse_fasta(INPUT):
         for line in file:
             line = line.strip()
             if line.startswith(">"):
-                if header:
+                # if header:
+                #     sequences.append((header, "".join(sequence_lines)))
+                if header is not None and header != "":
+                    # Save the previous sequence before starting a new one
                     sequences.append((header, "".join(sequence_lines)))
+
                 header = line[1:]  # Remove ">"
                 sequence_lines = []
             elif line:
