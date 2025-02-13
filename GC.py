@@ -20,12 +20,12 @@ def parse_fasta(INPUT):
                     # Saves the previous sequence before starting a new one
                     sequences.append((header, "".join(sequence_lines)))
 
-                header = line[1:]  # Remove ">"
+                header = line[1:]  # Removes ">"
                 sequence_lines = []
             elif line:
                 sequence_lines.append(line)
         if header:
-             sequences.append((header, "".join(sequence_lines))) # Add the last sequence
+             sequences.append((header, "".join(sequence_lines))) # Adds the last sequence
 
     return sequences
 
