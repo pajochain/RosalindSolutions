@@ -4,4 +4,4 @@
  
  This will contain solutions to the Rosalind problem set in the form of functions.
 
-Homework 1 solutions added for the following: DNA/RNA/REVC/GC/HAMM/PROT
+Homework 2 solutions: DNA/RNA/REVC/GC/HAMM/PROT
