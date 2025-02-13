@@ -15,7 +15,7 @@ def parse_fasta(INPUT):
         for line in file:
             line = line.strip()
             if line.startswith(">"):
-                # This seems like an inefficient way of separating the headers and sequence strings. 
+                # Checks to make sure header is not a sequence and it is not an empty string
                 if header is not None and header != "":
                     # Saves the previous sequence before starting a new one
                     sequences.append((header, "".join(sequence_lines)))
