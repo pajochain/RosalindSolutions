@@ -15,10 +15,9 @@ def parse_fasta(INPUT):
         for line in file:
             line = line.strip()
             if line.startswith(">"):
-                # if header:
-                #     sequences.append((header, "".join(sequence_lines)))
+                # This seems like an inefficient way of separating the headers and sequence strings. 
                 if header is not None and header != "":
-                    # Save the previous sequence before starting a new one
+                    # Saves the previous sequence before starting a new one
                     sequences.append((header, "".join(sequence_lines)))
 
                 header = line[1:]  # Remove ">"
@@ -33,7 +32,8 @@ def parse_fasta(INPUT):
 
 def calculate_gc(fasta_list):
     """
-     Goes through the list of (header, sequence) tuples, calculates GC content, and prints the header corresponding to the sequence with the highest GC content
+     Goes through the list of (header, sequence) tuples, calculates GC content, 
+     and prints the header corresponding to the sequence with the highest GC content
 
     """
 
