@@ -8,9 +8,9 @@
 # t = 'GATATATGCATATACTT'
 # s = 'ATAT'
 
+ANSWER = input("Paste name of dataset (example.txt) in data folder:")
+INPUT = f'data\\{ANSWER}'
 
-ANSWER = input("Paste name of dataset (example.txt) in C:\\Users\\tanic\\MLProjects\\RosalindSolutions\\data:")
-INPUT = f'C:\\Users\\tanic\\MLProjects\\RosalindSolutions\\data\\{ANSWER}'
 
 def slice_and_check(string, substring):
     """
