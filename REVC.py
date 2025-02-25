@@ -1,7 +1,9 @@
 #! /usr/bin/env python
 
 INPUT="data/rosalind_revc.txt"
-
+"""
+Accepts path to sequence text file.
+"""
 
 def main(INPUT):
     with open(INPUT) as data:
