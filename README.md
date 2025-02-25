@@ -5,3 +5,5 @@
  This will contain solutions to Rosalind problem sets in the form of functions.
 
 Homework 2 solutions: DNA/RNA/REVC/GC/HAMM/PROT
+
+Homework 3 solutions: SUBS/PRTM/SPLC/REVP/TRAN/LCSM/ORF
