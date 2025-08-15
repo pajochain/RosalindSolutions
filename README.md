@@ -8,6 +8,6 @@ Homework 2 solutions: DNA/RNA/REVC/GC/HAMM/PROT
 
 Homework 3 solutions: SUBS/PRTM/SPLC/REVP/TRAN/LCSM/ORF
 
-Homeowork requirements completed. 
+Homework requirements completed. 
 
 
